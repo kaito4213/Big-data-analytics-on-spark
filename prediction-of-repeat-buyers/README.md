@@ -11,7 +11,7 @@ whether they are repeated buyers.This project aims to predict which new buyers f
 ## Data Description
 User Behaviour Logs
 | Data Fields   | Definition    |
-| ------------- |:-------------:|
+|---------------|---------------|
 | user_id       | A unique id for the shopper   | 
 | item_id       | A unique id for the item      |
 | cat_id        | A unique id for the category that the item belongs to| 
@@ -22,7 +22,7 @@ User Behaviour Logs
 
 User profile
 | Data Fields   | Definition    |
-| ------------- |:-------------:|
+|---------------|---------------|
 | user_id       | A unique id for the shopper   | 
 | merchant_id   | A unique id for the merchant      |
 | label         | 1 for repeat buyer, 0 for non-repeat buyer| 
@@ -39,13 +39,13 @@ User profile
 
 Training error
 |    				| error    |
-| ------------- 	|:--------:|
+|-------------------|----------|
 | All customer      | 9.33%    | 
 | Repeated customer | 9.67%    |
 
 AUC
 |    	| Area Under Curve    |
-| ------|:--------:|
+|-------------------|----------|
 | ROC   | 90.67%    | 
 | PR    | 93.05%    |
 
@@ -53,15 +53,16 @@ AUC
 
 Training error
 |    				| error    |
-| ------------- 	|:--------:|
+|-------------------|----------|
 | All customer      | 7.83%    | 
 | Repeated customer | 8.72%    |
 
 AUC
 |    	| Area Under Curve    |
-| ------|:--------:|
+|-------|---------------------|
 | ROC   | 92.31%    | 
 | PR    | 93.78%    |
 
 * XGBoost
 
+![xgb](https://github.com/kaito4213/Big-data-analytics-on-spark/blob/master/prediction-of-repeat-buyers/img/xgboost.png)
