@@ -1,2 +1,4 @@
 # Big-data-analytics-on-spark
-This repository contains some course work and project related to data analytics on spark.
+- kafka: databoard(TODO)
+- prediction of repeat buyers: This is project aims to predict which new buyers for given merchants will become loyal customers in the future. In other words, it will predict the probability that these new buyers would purchase items from the same merchants again within 6 months.
+- sketches: A sketch is a compact summary of a large amount of data. This file Implemented two sketches, count-min sketch and bloom filter. The Bloom Filter is a data structure that compactly represents a set as a bitmap which is updated via hashing.  The main conceptual different is that CM sketch represents a multiset, and has different assumptions about the kind of updates.  More formally, CM sketch summarizes a frequency distribution, while Bloom Filter is concerned with representing which elements are present in a set.  
