@@ -10,6 +10,7 @@ whether they are repeated buyers.This project aims to predict which new buyers f
 
 ## Data Description
 User Behaviour Logs
+
 | Data Fields   | Definition    |
 |---------------|---------------|
 | user_id       | A unique id for the shopper   | 
@@ -21,6 +22,7 @@ User Behaviour Logs
 | action_type   | click, add-to-cart, purchase, add-to-favourite|
 
 User profile
+
 | Data Fields   | Definition    |
 |---------------|---------------|
 | user_id       | A unique id for the shopper   | 
@@ -38,26 +40,30 @@ User profile
 * Logistic Regression
 
 Training error
-|    				| error    |
+
+|    predictor	    | error    |
 |-------------------|----------|
 | All customer      | 9.33%    | 
 | Repeated customer | 9.67%    |
 
 AUC
+
 |    	| Area Under Curve    |
-|-------------------|----------|
+|-------|---------------------|
 | ROC   | 90.67%    | 
 | PR    | 93.05%    |
 
 * Random Forest
 
 Training error
+
 |    				| error    |
 |-------------------|----------|
 | All customer      | 7.83%    | 
 | Repeated customer | 8.72%    |
 
 AUC
+
 |    	| Area Under Curve    |
 |-------|---------------------|
 | ROC   | 92.31%    | 
